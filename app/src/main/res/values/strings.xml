@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WeddingPlanner</string>
+    <string name="guest_list">Liste des invités</string>
 </resources>

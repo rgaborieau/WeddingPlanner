@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.atoukprod.weddingplanner.MainActivity">
+    tools:context="com.atoukprod.weddingplanner.GuestActivity">
 
-    <Button
-        android:id="@+id/guestButton"
+    <TextView
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
         android:text="@string/guest_list" />
+
+    <com.atoukprod.weddingplanner.view.GuestList
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"/>
 
 </RelativeLayout>
